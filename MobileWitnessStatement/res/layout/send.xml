@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+       android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#00ffff"
+        android:gravity="center"
+        android:text="Report Send"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="The report will be sent to User Mail and Online Crime Reporting Mail(Eaduan)"
+         android:gravity="center"
+         android:textColor="#FFFFFF" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" 
+        android:text="Click to Send. Please ensure the details were true and wasnt to create misleading information."
+         android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="58dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="15dp"
+         android:background="@drawable/btn_st"
+         android:id="@+id/sndbtn"
+         android:text="Send"
+         android:textColor="#FFFFFF" />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="58dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="15dp"
+         android:background="@drawable/btn_st"
+         android:id="@+id/hme"
+         android:text="Back to Homepage"
+         android:textColor="#FFFFFF" />
+
+</LinearLayout>

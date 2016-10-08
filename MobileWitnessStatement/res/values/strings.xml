@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileWitnessStatement</string>
+    <string name="action_settings">Settings</string>
+     <string name="crimeType_prompt">Incident Type</string>
+    <string-array name="crimeType_arrays">
+        <item>-Please Select-</item>
+        <item>Snatch theft</item>
+        <item>Robbery</item>
+        <item>Vehicle theft</item>
+        <item>Burglary</item>
+        <item>Violent crime</item>
+        <item>Others</item>
+            </string-array>
+
+</resources>
